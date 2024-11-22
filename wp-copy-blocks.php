@@ -1,11 +1,13 @@
 <?php
 /**
  * Plugin Name:       WP Copy Blocks
+ * Plugin URI:        https://github.com/nathanonn/wp-copy-blocks
  * Description:       Adds a button to copy all blocks in JSON format to clipboard
  * Requires at least: 6.6
  * Requires PHP:      7.2
  * Version:           0.1.0
  * Author:            Nathan Onn
+ * Author URI:        https://www.nathanonn.com
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       wp-copy-blocks

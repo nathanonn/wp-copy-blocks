@@ -1,55 +1,58 @@
 === WP Copy Blocks ===
+
 Contributors:      Nathan Onn
-Tags:              block
+Tags:              block, gutenberg, clipboard, export, blocks
 Tested up to:      6.6
 Stable tag:        0.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
-Example block scaffolded with Create Block tool.
+Copy Gutenberg blocks as JSON with a single click. Perfect for developers and content creators who need to transfer block layouts between sites.
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+WP Copy Blocks adds a simple but powerful feature to your WordPress editor: the ability to copy all blocks in your post or page as JSON format with a single click.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+**Key Features:**
+* Copy all blocks with one click
+* Preserves block attributes and nested blocks
+* JSON format output for easy transfer
+* Available in the editor's more menu
+* Success/error notifications
+* Lightweight and easy to use
+
+**Perfect for:**
+* Developers working across multiple sites
+* Content creators who need to replicate layouts
+* Creating block templates
+* Debugging block structures
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
-1. Upload the plugin files to the `/wp-content/plugins/.` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-
+1. Upload the plugin files to the `/wp-content/plugins/wp-copy-blocks` directory, or install the plugin through the WordPress plugins screen directly
+2. Activate the plugin through the 'Plugins' screen in WordPress
+3. Open any post or page in the block editor
+4. Click the three-dot menu in the top-right corner
+5. Find "Copy Blocks as JSON" in the menu
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= Where do I find the copy button? =
 
-An answer to that question.
+The "Copy Blocks as JSON" button is located in the editor's more menu (three dots in the top-right corner).
 
-= What about foo bar? =
+= What format is the copied data in? =
 
-Answer to foo bar dilemma.
+The blocks are copied as a JSON string that includes block names, attributes, and any nested blocks.
 
-== Screenshots ==
+= Can I paste the copied blocks directly into another post? =
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+This plugin is designed to copy blocks as JSON. To use the copied blocks, you'll need to process the JSON data appropriately (useful for developers and programmatic block manipulation).
 
 == Changelog ==
 
 = 0.1.0 =
-* Release
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
+* Initial release
+* Add copy to clipboard functionality
+* Add success/error notifications
+* Support nested blocks
